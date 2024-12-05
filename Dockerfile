@@ -5,10 +5,10 @@ FROM gcc:latest
 WORKDIR /app
 
 # Copy the C++ source file into the container
-COPY main.cpp .
+COPY Ligado-C++_HelloWorld.cpp .
 
 # Compile the C++ program
-RUN g++ -o hello main.cpp
+RUN g++ -o hello Ligado-C++_HelloWorld.cpp
 
 # Set the entrypoint command to run the compiled program
 CMD ["./hello"]
