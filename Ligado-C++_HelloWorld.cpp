@@ -8,6 +8,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Welcome to Ligado - C++ Application Version 1.0.0\n" << std::endl;
     return 0;
 }
